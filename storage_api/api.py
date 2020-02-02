@@ -1,6 +1,6 @@
 from rest_framework import viewsets, permissions
 from .serializer import BucketSerializer
-from leads.models import Bucket 
+from storage_api.models import Bucket 
 
 class BucketViewSet(viewsets.ModelViewSet):
     queryset = Bucket.objects.all()
