@@ -80,7 +80,7 @@ DATABASES = {
      'default': {
         'ENGINE': 'djongo',
         'NAME': 'file_storage',
-        'HOST': 'mongodb+srv://django_app:&n]Xk-zu*RwT6$V@oluwasayo-ckrua.mongodb.net/test?retryWrites=true&w=majority',
+        'HOST': 'mongodb+srv://django_app:akin1991@oluwasayo-ckrua.mongodb.net/test?retryWrites=true&w=majority',
         'USER': 'django_app',
         'PASSWORD': 'akin1991',
     },
