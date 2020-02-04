@@ -77,13 +77,13 @@ WSGI_APPLICATION = 'file_storage.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'django_app',
-        'HOST': 'mongodb+srv://django_app:sayo1991@oluwasayo-ckrua.mongodb.net/test?retryWrites=true&w=majority',
-        'USER': 'oluwasayo',
-        'PASSWORD': 'sayo1991',
-    }
+        'NAME': 'file_storage',
+        'HOST': 'mongodb+srv://django_app:akin1991@oluwasayo-ckrua.mongodb.net/test?retryWrites=true&w=majority',
+        'USER': 'django_app',
+        'PASSWORD': 'akin1991',
+    },
 }
 
 
