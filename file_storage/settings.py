@@ -77,10 +77,13 @@ WSGI_APPLICATION = 'file_storage.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+     'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'file_storage',
+        'HOST': 'mongodb+srv://django_app:&n]Xk-zu*RwT6$V@oluwasayo-ckrua.mongodb.net/test?retryWrites=true&w=majority',
+        'USER': 'django_app',
+        'PASSWORD': 'akin1991',
+    },
 }
 
 
