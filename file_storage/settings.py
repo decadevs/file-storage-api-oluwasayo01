@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'file_storage.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'djongo',
-        'NAME': 'file_storage',
+        'NAME': 'new_store',
         'HOST': 'mongodb+srv://django_app:akin1991@oluwasayo-ckrua.mongodb.net/test?retryWrites=true&w=majority',
         'USER': 'django_app',
         'PASSWORD': 'akin1991',
